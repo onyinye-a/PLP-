@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #d4dbdd;
+        }
+    </style>
+</head>
+<body>
+    <h2> Student Registration form</h2>
+    <form>
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br></br>
+
+        <label for="date of birth"> Date of Birth: </label>
+        <input type="date" id="date of birth" name="date of birth" placeholder="Enter your date of birth"><br></br>
+
+        <fieldset>
+            <legend> Gender: </legend>
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label for="male"> Male</label><br></br>
+
+            <input type="radio" id="gender" name="gender" value="Female">
+            <label for="female"> Female</label>
+        </fieldset><br><br>
+
+        <label for="address"> Address: </label>
+        <textarea id="address" name="address" rows="4" cols="25" placeholder="Enter your address here"></textarea><br></br>
+
+        <label for="Phone Number"> Phone Number: </label>
+        <input type="tel" id="phone number" name="phone number"><br></br>
+
+        <label for="Email"> Email Address</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email here"><br></br>
+        
+        <label for="course"> Course: </label>
+        <input type="text" id="course" name="course" placeholder="Enter your course"><br></br>
+
+        <input type="submit" value="Register">
+        <input type="button" value="Cancel" onclick="window.location.href='cancel.html'">
+
+    </form>
+</body>
+</html>
